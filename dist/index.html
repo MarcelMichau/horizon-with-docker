@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <script src="/horizon/horizon.js"></script>
+    <script>
+      var horizon = Horizon();
+      horizon.onReady(function() {
+        document.querySelector('h1').innerHTML = 'Horizon With Docker!'
+      });
+      horizon.connect();
+    </script>
+</head>
+
+<body>
+    <marquee>
+        <h1></h1>
+    </marquee>
+</body>
+
+</html>
